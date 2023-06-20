@@ -1,0 +1,107 @@
+.left {
+    border: 2px solid;
+    display: inline-block;
+    margin-right: 100px;
+    border-color: rgb(247, 252, 251);
+}
+
+.right {
+    border: 2px solid;
+    display: inline-block;
+    float: right;
+}
+
+.middle {
+    /* border: 2px solid; */
+    display: inline-block;
+
+}
+
+.middle li {
+    display: inline-block;
+    margin: 25px 30px;
+
+}
+
+.middle li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.btn {
+
+    width: 125px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn button {
+    text-align: center;
+    
+}
+
+
+
+.about img {
+    border-radius: 10px;
+
+
+}
+
+.about p {
+
+    color: black;
+     
+} 
+.about h6{
+    color: rgb(78, 152, 134);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(42, 155, 117);
+
+    
+}
+.yash img{
+    display: inline-block;
+    width: 300px;
+    
+}
+footer{
+    border: 2px solid gray;
+    background-color: gray;
+    font-size: 20px;
+    color: aliceblue;
+}
+.foot img{
+    width: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <style>
+        .body {
+            background-image: url(bg\ img.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .left {
+
+            border: 2px solid rgb(250, 251, 250);
+            display: inline-block;
+            position: absolute;
+        }
+
+        .mid {
+            /* border: 2px solid rgb(34, 121, 21); */
+            display: inline-block;
+            position: absolute;
+            padding: auto;
+           margin-right: 300px;
+
+        }
+
+        /* .mid li a{
+            float: left;
+        }  */
+        .mid li {
+            display: inline-block;
+            font-size: 25px;
+        
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: rgb(129, 30, 30);
+            padding: 13px 23px;
+            top: 10px;
+            display: inline-block;
+        }
+
+        .mid a:hover,
+        .mid li a.active {
+            text-decoration: underline;
+            color: rgb(70, 238, 84);
+        } 
+        p{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .btn{
+            text-align: center;
+            
+        }
+        button{
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+        .offers{
+    padding: 10px 8% 20px;
+    background: #f3f3f3;
+}
+.offer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 0.90rem;
+    margin-top: 30px;
+}
+.offer-content .row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.offer-content .row i{
+    font-size: 50px;
+    color: #388b6f;
+}
+.offer-content .row h3{
+    margin-left: 5px;
+}
+.offer-content .row p{
+    margin-left: 5px;
+}
+@media (max-width:920px){
+    .offer-content{
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+
+ <body  style="background-image: url(bg\ img.jpeg); background-repeat: no-repeat; background-size: cover; ">
+    <header>
+    <div class=" left">
+    <img src="logo.jpeg">
+    </div>
+    <center>
+    <div class="mid">
+
+        <ul>
+            <li> <a href="#"> Home </a> </li>
+            <li> <a href="#"> About</a> </li>
+            <li> <a href="#"> Product</a> </li>
+            <li> <a href="#">Contact</a> </li>
+            <li> <a href="#">Review</a> </li>
+
+        </ul>
+    
+    </div>
+</center>
+</header> <br><br><br><br><br><br><br><br>
+    <div class=" main">
+        <!-- <h1> Discover The Best <br> Furniture For You</h1> -->
+        <h1 align="center">Discover The Best <br>Furniture For You</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa inventore nulla quis doloribus modi magni iusto earum! Necessitatibus, quidem quia.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa inventore nulla quis doloribus modi magni iusto earum! Necessitatibus, quidem quia.</p>
+        <div class="btn">
+            <button>View More</button>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Top Section Card Start -->
+    <section class="offers">
+        <div class="offer-content">
+            <div class="row">
+                <i class="fa-solid fa-truck-fast"></i>
+                <img src="g1.jpeg" alt=""><h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Support 24/7</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>30 Day Return</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Secure Shopping</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
